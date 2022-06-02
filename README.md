@@ -1,5 +1,5 @@
 Atividades concluídas em java no 2° semestre de Lógica de Programação em 2022, IFB - TSI noturno.
-
+<br>
 <strong> Exercício: Par ou Ímpar </strong>
 Faça um programa que leia um número inteiro e mostre uma mensagem indicando se este número é par ou ímpar, e se é positivo ou negativo.
 
@@ -9,7 +9,7 @@ Entrada	Saída
 13	ÍMPAR E POSITIVO
 -7	ÍMPAR E NEGATIVO
 Observe o caractere de fim de linha ao final de cada saída.
-
+<br>
 <strong>Exercício: Maior do Conjunto</strong>
 Faça um algoritmo que determine o maior entre N números. A condição de parada é a entrada de um valor 0, ou seja, o algoritmo deve ficar calculando o maior até que a entrada seja igual a 0 (ZERO).
 
@@ -20,16 +20,16 @@ Entrada	Saída
 0	maior = -5
 0	maior = 0
 Observe o espaço antes e depois do símbolo de igualdade (' = ') e também o caractere de fim de linha ao final de cada saída.
-
+<br>
 <strong> Exercício: Múltiplo de 10 </strong>
-Faça um algoritmo que conte de 1 a 100 e a cada múltiplo de 10 emita uma mensagem: “Multiplo de 10”.
+Faça um algoritmo que conte de 1 a 100 e a cada múltiplo de 10 emita uma mensagem: Multiplo de 10.
 
 Entrada	Saída
 Não há entrada para este exercício.	Multiplo de 10
 Multiplo de 10
 ...
 Observe que deve ter um caractere de fim de linha ao final de cada saída. O símbolo '...' deve ser substituído pela quantidade correta de ocorrências do texto 'Múltiplo de 10"
-
+<br>
 <strong> Exercício: Horas Extras </strong>
 Elabore um programa que leia o código e o número de horas trabalhadas por um operário, e calcule o seu salário, sabendo que ele ganha R$ 10,00 por hora trabalhada. Quando o número de horas exceder a 50, calcule o montante a receber relativo a pagamento de horas extras, sabendo que a hora extra de trabalho vale R$ 20,00. No final do processamento, imprima o código do operário, o salário relativo a horas extras e o salário total, conforme exemplos a seguir.
 
@@ -46,7 +46,7 @@ salarioTotal = 300
 salarioExcedente = 0
 salarioTotal = 500
 Observe o espaço antes e depois do símbolo de igualdade (' = ') e também o caractere de fim de linha ao final de cada saída.
-
+<br>
 <strong> Exercício: Fatorial </strong>
 Faça um algoritmo para calcular o fatorial de um número inteiro qualquer entre 0 e 25 (inclusive).
 
