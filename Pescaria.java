@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LDP7141 {
+public class Pescaria {
 	public static void main(String[] args) {
 		int excesso, multa, peso, pesoLimite;
 		Scanner entrada = new Scanner(System.in);
