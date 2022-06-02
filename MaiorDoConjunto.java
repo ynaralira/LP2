@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LDP7251 {
+public class MaiorDoConjunto {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner (System.in); 
