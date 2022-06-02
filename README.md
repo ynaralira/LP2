@@ -1,4 +1,5 @@
 Atividades concluídas em java no 2° semestre de Lógica de Programação em 2022, IFB - TSI noturno.
+
 <br>
 <strong> Exercício: Par ou Ímpar </strong>
 Faça um programa que leia um número inteiro e mostre uma mensagem indicando se este número é par ou ímpar, e se é positivo ou negativo.
