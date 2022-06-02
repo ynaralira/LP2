@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-	public class LDP7142 {
+	public class HorasExtras {
 		public static void main (String[] args) {
 			Scanner entrada = new Scanner(System.in);
 			int codigo = entrada.nextInt();
