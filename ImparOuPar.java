@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio {
+public class ImparOuPar {
 	private static double primeiro, segundo;
 
 	public static void main(String[] args) {
