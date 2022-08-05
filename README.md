@@ -67,3 +67,33 @@ multa = 0
 30	excedente = 0
 multa = 0
 Na saída, observe o espaço antes e depois do símbolo de igualdade (' = ') e também o fim de linha ao imprimir tanto o valor excedente como o valor da multa.
+
+Neste exercício, vamos implementar um modelo bem simples de Veículo!
+
+Clique aqui para baixar os anexos deste exercício.
+
+No arquivo de anexos você vai encontrar o (1) diagrama de classes, (2) o javadocs da solução e (3) classes de teste.
+
+(1) O arquivo 'Veiculo_diagrama_classes.svg' fornece uma visão geral da solução.
+
+(2) As especificações detalhadas das classes que você precisará implementar estão disponíveis em 'javadocs/index.html'. Nessa documentação você encontrará todos os construtores, atributos e métodos de cada classe do projeto, incluindo comentários que explicam o propósito e o funcionamento de cada elemento.
+
+(3) Além do Javadoc das classes, também estão disponíveis as classes de teste 'AutomovelTest.java', 'VeiculoTest.java', 'MotoTest.java', 'CarroTest.java' e 'BicicletaTest.java', que você deve utilizar para testar seu código. Essas classes de teste foram escritas com o framework JUnit, que configuraremos a seguir no seu projeto.
+
+Para começar, crie um novo 'Java Project' no Eclipse (File -> New -> Java Project). Digite um nome para o projeto e clique em 'Next'. Em seguida, vá até a aba 'Libraries' e verifique se a biblioteca 'JavaSE-1.8' está presente. Se não estiver, você terá que instalar o JDK 1.8 primeiro e fazer referência a ele na primeira tela de criação do 'Java Project', ok? Mas se estiver tudo certo até aqui, clique em 'Add Library...', escolha 'JUnit', clique em 'Next', escolha 'JUnit 4', clique em 'Finish', e depois em 'Finish' novamente.
+
+Pronto! Seu novo projeto Java foi criado e está pronto para executar classes de teste escritas com o framework JUnit. Agora coloque os arquivos de teste dentro do diretório 'src' do seu novo projeto. Dica: você pode fazer isso arrastando e soltando o arquivo no diretório 'src' dentro do próprio Eclipse, e confirmando com a opção 'Copy File(s)'.
+
+Muito bem! Se você abrir essa classe de teste no Eclipse, verá que ela ainda não compila e apresenta vários 'x' vermelhos próximos aos números de linha (lado esquerdo do editor). Isso acontece porque as classes de teste dependem das classes que você ainda vai implementar (Veiculo, Automovel, Carro, Moto e Bicicleta).
+
+A maneira mais fácil de começar a implementar essas classes é clicando em cada 'x' vermelho e acionando uma dessas 3 opções: 'Create class', 'Create constructor' ou 'Create method'. Dica: não escolha outras opções além dessas, ok? Senão você pode acabar alterando a classe de testes indevidamente!
+
+Executar essas opções irá criar algumas classes, construtores e métodos que faltam no projeto, fazendo desaparecer os erros de compilação. Mas depois disso, você ainda deverá recorrer ao Javadoc das classes para corrigir o que não está aderente à especificação. 
+
+Quando todas as classes estiverem compilando sem erros, você poderá executar os testes clicando com o botão direito sobre cada uma das classes de teste e selecionando a opção 'Run As -> JUnit Test'. Em seguida, avalie os erros (execuções em vermelho) e corrija o que for necessário até que todos os testes executem com sucesso (execuções verdes).
+
+É muito importante que você leia atentamente os comentários no Javadoc e também no código da classe de teste, porque ambas as referências trazem informações essenciais para seu sucesso no exercício! O Javadoc define os atributos e métodos a serem implementados nas classes, enquanto a classe de teste apresenta cenários reais de uso desses elementos. Portanto, são informações que se complementam.
+
+Quando você conseguir resolver o exercício, o código de cada classe deverá ser colado nos respectivos campos abaixo. Observe que os nomes das classes já estão pré-definidos e que elas devem estar todas no pacote default (nenhum pacote Java específico).
+
+Depois de clicar no botão 'Enviar', sua aplicação será validada automaticamente através de testes automáticos que irão executar seu código em alguns cenários de uso.
